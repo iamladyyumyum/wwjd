@@ -1,0 +1,18 @@
+$jumbotron-bg: #c6d9ec;
+$navbar-default-link-color: #800000;
+$btn-default-bg: #ff80ff;
+
+.navbar
+{
+    background-image: url(cherry-navbar2.jpeg);
+    background-size: cover;
+}
+
+.center
+{
+    text-align: center;
+}
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
