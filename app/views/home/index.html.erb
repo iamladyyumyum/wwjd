@@ -2,5 +2,11 @@
 <h1>Hi Necole</h1>
 
 <p>I want to say sorry again. I inconvenienced you a lot by ruining your little kingdom of Nohr.
-<br> I promise to make this as funcional so you can get back to reigning. :)</p>
+<br> I promise to make this work so you can get back to reigning. :)</p>
+
+<%= link_to 'Login', new_user_session_path, class: 'btn btn-default' %>
+<%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-default' %>
+<%= link_to 'New Pin', new_pin_path, class: 'btn btn-default' %>
+<%= link_to 'Log Out', destroy_user_session_path, :method => :delete, class: 'btn btn-default' %>
+
 </div>
