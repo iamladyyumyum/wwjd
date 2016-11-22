@@ -79,5 +79,5 @@ Rails.application.configure do
   
   #Added as per Devise installation instructions
   config.action_mailer.default_url_options = { host: 'https://stark-tundra-11108.herokuapp.com'}
-  
+  config.serve_static_files = true
 end
